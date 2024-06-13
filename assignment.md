@@ -39,8 +39,11 @@
     git config --global user.name "Your Name"
     git config --global user.email "your-email@example.com"
     ```
+    ![git-config](./screenshots/git-config.png)
 - **Create a GitHub Account:**
   - If you don't already have one, sign up at [GitHub](https://github.com).
+
+  ![github](./screenshots/github.png)
 - **Initialize a Git Repository:**
   - Create a new folder for your project.
   - Open the folder in VS Code or the terminal.
@@ -71,14 +74,15 @@
   - Download Python from the [official Python website](https://www.python.org/downloads/).
   - Choose the latest version and follow the installation instructions.
   - Ensure you check the box to add Python to your PATH during installation.
+  ![python-downaload](./screenshots/python-download.png)
+
 - **Verify Python Installation:**
   - Open a terminal and type:
     ```bash
     python --version
     ```
   - You should see the Python version number.
-
-![python version](./screenshots/python.png)
+  ![python version](./screenshots/python.png)
 
 ---
 
@@ -89,12 +93,14 @@
     ```bash
     python -m pip install --upgrade pip
     ```
+
+    ![pip](./screenshots/pip-2.png)
+
   - Verify pip installation:
     ```bash
     pip --version
     ```
-
-![pip version](./screenshots/pip.png)
+    ![pip version](./screenshots/pip.png)
 
 ---
 
@@ -103,6 +109,8 @@
 - **Download MySQL:**
   - Visit the [MySQL download page](https://dev.mysql.com/downloads/windows/installer/5.7.html).
   - Choose the appropriate installer for Windows.
+
+  ![sql-download](./screenshots/sql-download.png)
 - **Install MySQL:**
   - Follow the installation wizard instructions.
   - Set up a root password during installation and note it down securely.
@@ -112,32 +120,19 @@
     ```sql
     SHOW DATABASES;
     ```
-
-![sql](./screenshots/SQL.png)
-
----
-
-### 7. Set Up Development Environments and Virtualization (Optional)
-
-- **Consider Virtualization Tools:**
-  - **Docker:** Useful for containerizing applications.
-    - Download Docker from the [official Docker website](https://www.docker.com/products/docker-desktop).
-    - Follow the installation instructions and set up a simple container to verify the installation.
-  - **Virtual Machines:** Tools like VirtualBox or VMware can be used to create virtual machines for testing different environments.
-    - Download VirtualBox from the [official VirtualBox website](https://www.virtualbox.org/).
-    - Follow the installation instructions and set up a simple VM.
+    ![sql](./screenshots/SQL.png)
 
 ---
-
-### 8. Explore Extensions and Plugins
+### 7. Explore Extensions and Plugins
 
 - **For VS Code:**
-  - Open the Extensions view (View -> Extensions or `Ctrl+Shift+X`).
+  - Open the Extensions view (View -> Extensions or `Cmd+Shift+X`).
   - Install useful extensions like:
     - **Python**: For Python development.
-    - **GitLens**: Enhances Git capabilities.
-    - **ESLint**: For JavaScript linting.
-    - **Prettier**: Code formatter.
+    - **Dart**: Dart language support and debugger.
+    - **Django**: Beautiful syntax and scoped snippets.
+    - **Flutter**: Flutter support amd debugger.
+    - **Live Server**: Launch development local server
   - Explore and install any other extensions that suit your workflow.
 
 ![extenstions-vscode](./screenshots/ide-1.png)
